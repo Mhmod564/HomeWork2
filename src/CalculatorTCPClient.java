@@ -22,6 +22,8 @@ public class CalculatorTCPClient {
 					 }
 				System.out.println(userInput+" = "+in.readLine());
 				System.out.println("Enter expression (num op num or) 'close' to exit: ");
+				System.out.println("Enter expression (num op1111111111111111111111111 num or) 'close' to exit: ");
+
 			}
 			in.close();
 			out.close();
