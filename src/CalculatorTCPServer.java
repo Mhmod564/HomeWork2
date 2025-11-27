@@ -59,8 +59,8 @@ public class CalculatorTCPServer {
 							}
 							
 							}
-						}else out.println("Error: Invalid expression.yyyyyyyyy");
-					}else out.println("Error: Invalid expression.xxxx");
+						}else out.println("Error: Invalid expression.");
+					}else out.println("Error: Invalid expression.");
 					}
 				}
 			}
