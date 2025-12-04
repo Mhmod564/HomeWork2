@@ -6,7 +6,6 @@ import java.util.Random;
 public class QuoteUDPServer {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int port=8080;
 		try(DatagramSocket serverSocket = new DatagramSocket(port)) {
 			 System.out.println("Server is running on port " + port);
@@ -25,7 +24,6 @@ public class QuoteUDPServer {
 			 System.out.println("Server is shutting down...");
 			 break;
 			 }
-			 // Send response to client
 			 String serverResponse = quotes[index];
 			 sendBuffer = serverResponse.getBytes();
 			 InetAddress clientAddress = receivePacket.getAddress();
